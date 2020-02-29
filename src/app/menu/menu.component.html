@@ -1,0 +1,22 @@
+<h1>
+    Menu
+</h1>
+<div class="menu-container">
+    <mat-accordion>
+        <mat-expansion-panel class="menu-section-container" *ngFor="let section of foodOptions">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <h1>{{ section.title }}</h1>
+                </mat-panel-title>
+                <mat-panel-description>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <table>
+                <tr *ngFor="let food of section.foods">
+                    <td>{{ food.name }}</td>
+                    <td>{{ food.price }}</td>
+                </tr>
+            </table>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
