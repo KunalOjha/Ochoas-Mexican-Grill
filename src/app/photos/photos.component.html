@@ -1,0 +1,12 @@
+<h1>
+    Photos
+</h1>
+<div class="photos-container">
+    <div class="photos-grid">
+        <mat-card class="photo-card" *ngFor="let photo of photos; let i = index">
+            <img class="food-image" mat-card-image src="../../assets/food-pics/Food_{{i + 1}}.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
