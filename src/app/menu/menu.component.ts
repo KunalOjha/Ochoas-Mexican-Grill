@@ -38,7 +38,7 @@ export class MenuComponent {
           price: 3
         },
         {
-          name: 'CHorizo',
+          name: 'Chorizo',
           details: 'Onion and Cilantro',
           price: 3
         },
