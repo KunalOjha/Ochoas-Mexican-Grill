@@ -21,3 +21,23 @@
         }
     }
 }
+
+.image-wrapper {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+    img {
+        border: 5px solid black;
+        width: auto;
+        height: 80%;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}

@@ -36,43 +36,6 @@
     font-weight: 600;
   }
 
-  .toolbar img {
-    margin: 0 16px;
-  }
-
-  .toolbar #twitter-logo {
-    height: 40px;
-    margin: 0 16px;
-  }
-
-  .toolbar #twitter-logo:hover {
-    opacity: 0.8;
-  }
-
-  .header {
-    display: flex;
-    color: white;
-    background:
-    radial-gradient(black 15%, transparent 16%) 0 0,
-    radial-gradient(black 15%, transparent 16%) 8px 8px,
-    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-    background-color:#282828;
-    background-size:16px 16px;
-  }
-
-  .social-media-icon {
-    font-size: 25px;
-    padding-right: 20px;
-  }
-
-  .ochoas-header-text {
-    position: relative;
-    display: block;
-    margin: auto;
-    height: 131px;
-  }
-
   .content {
     display: flex;
     margin: 82px auto 32px;
@@ -118,21 +81,6 @@
     line-height: 24px;
   }
 
-  .pepper-twins {
-    height: auto;
-    width: 100%;
-    max-width: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .address {
-    font-size: 10px;
-    color: white;
-  }
-
-  .social-media-icons img {
-    width: 120px;
-    margin-left: 15px;
-  }
+ .address-card {
+   height: auto;
+ }

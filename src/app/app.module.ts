@@ -13,13 +13,17 @@ import { MenuComponent } from './menu/menu.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { PhotosComponent } from './photos/photos.component';
+import { HeaderComponent } from './header/header.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     FooterComponent,
-    PhotosComponent
+    PhotosComponent,
+    HeaderComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

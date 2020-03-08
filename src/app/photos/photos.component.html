@@ -1,12 +1,26 @@
-<h1>
+<h1 class="tab-title">
     <strong>Photos</strong>
 </h1>
-<div class="photos-container">
+<div class="photos-container d-none d-sm-block">
     <div class="photos-grid">
         <mat-card class="photo-card" *ngFor="let photo of photos; let i = index">
             <img class="food-image" mat-card-image src="../../assets/food-pics/Food_{{i + 1}}.jpg" alt="Photo of a Shiba Inu">
             <mat-card-content>
             </mat-card-content>
         </mat-card>
+    </div>
+</div>
+
+<ngb-carousel *ngIf="photos" class="d-block d-sm-none">
+    <ng-template ngbSlide *ngFor="let photo of photos; let i = index">
+        <div class="image-wrapper">
+            <img class="food-image" src="../../assets/food-pics/Food_{{i + 1}}.jpg">
+        </div>
+    </ng-template>
+</ngb-carousel>
+
+<div class="col-sm-12">
+    <div class="row logo-container ">
+        <img class="pepper-twins" style="padding: 10px" src="../../assets/Peppers-logo.png" alt="">
     </div>
 </div>
