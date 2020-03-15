@@ -71,11 +71,157 @@ export class MenuComponent {
     },
     {
       title: 'Burritos',
+      foods: [
+        {
+          name: 'Steak',
+          price: 8.5
+        },
+        {
+          name: 'Skirt Steak',
+          price: 11.99
+        },
+        {
+          name: 'Chicken',
+          price: 8.5
+        },
+        {
+          name: 'Pork',
+          price: 8.5
+        },
+        {
+          name: 'Ground Chicken',
+          price: 8.5
+        },
+        {
+          name: 'Braised Pork',
+          price: 9.99
+        },
+        {
+          name: 'Try our Veggie Burrito',
+          price: 8.5
+        },
+        {
+          name: 'Veggie Tostada',
+          price: 5.5
+        }
+      ]
     },
-    { title: 'Gorditas' },
-    { title: 'Sopes' },
-    { title: 'Enchilladas' },
-    { title: 'Tortas' },
+    {
+      title: 'Gorditas',
+      foods: [
+        {
+          name: 'Steak',
+          price: 5.25
+        },
+        {
+          name: 'Chicken',
+          price: 5.25
+        },
+        {
+          name: 'Chicaron',
+          price: 5.25
+        },
+        {
+          name: 'Skirt Steak',
+          price: 6.5
+        },
+        {
+          name: 'Rajas',
+          price: 5.25
+        }
+      ]
+    },
+    {
+      title: 'Sopes',
+      foods: [
+        {
+          name: 'Skirt Steak',
+          price: 6.50
+        },
+        {
+          name: 'Steak',
+          price: 5.25
+        },
+        {
+          name: 'Chicken',
+          price: 5.25
+        },
+        {
+          name: 'Ground Beef',
+          price: 5.25
+        },
+        {
+          name: 'Chicharron',
+          price: 5.25
+        },
+        {
+          name: 'Rajas',
+          price: 5.25
+        }
+      ]
+    },
+    {
+      title: 'Enchilladas',
+      foods: [
+        {
+          name: 'Skirt Steak',
+          price: 11.50
+        },
+        {
+          name: 'Steak',
+          price: 10.5
+        },
+        {
+          name: 'Chicken',
+          price: 10.5
+        },
+        {
+          name: 'Al Pastor',
+          price: 10.5
+        },
+        {
+          name: 'Ground Beef',
+          price: 10.25
+        },
+        {
+          name: 'No Meat',
+          price: 9.5
+        }
+      ]
+    },
+    {
+      title: 'Tortas',
+      foods: [
+        {
+          name: 'Skirt Steak',
+          price: 11.99
+        },
+        {
+          name: 'Steak',
+          price: 8.5
+        },
+        {
+          name: 'Chicken',
+          price: 8.5
+        },
+        {
+          name: 'Ground Beef',
+          price: 8.5
+        },
+        {
+          name: 'Chicharron',
+          price: 8.85
+        },
+        {
+          name: 'Carnitas',
+          price: 9.99
+        },
+        {
+          name: 'Milanesa de Pollo',
+          price: 9
+        }
+      ]
+    },
   ]
 }
 
