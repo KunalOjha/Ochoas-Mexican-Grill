@@ -1,5 +1,4 @@
-import { Component, ChangeDetectorRef } from '@angular/core';
-import { MediaMatcher } from '@angular/cdk/layout';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'menu',
@@ -15,52 +14,57 @@ export class MenuComponent {
         {
           name: 'Steak',
           details: 'Lettuce, Tomato, Cheese',
-          price: 3
+          price: '$3.00'
         },
         {
           name: 'Skirt Steak',
           details: 'Grilled Onions, Cilantro, Avocado',
-          price: 4
+          price: '$4.00'
         },
         {
           name: 'Chicken',
           details: 'Lettuce, Tomato, Cheese',
-          price: 3
+          price: '$3.00'
         },
         {
-          name: 'Pork',
+          name: 'Al Pastor',
           details: 'Lettuce, Tomato, Cheese',
-          price: 3.85
+          price: '$3.85'
         },
         {
           name: 'Ground Beef',
           details: 'Onion and Cilantro',
-          price: 3
+          price: '$3.00'
         },
         {
           name: 'Chorizo',
           details: 'Onion and Cilantro',
-          price: 3
+          price: '$3.00'
         },
         {
-          name: 'Chicaron',
+          name: 'Chicarron',
           details: 'Your way!',
-          price: 3
+          price: '$3.00'
         },
         {
           name: 'Fish',
           details: 'Your way!',
-          price: 4
+          price: '$4.00'
         },
         {
           name: 'Carnitas',
           details: 'Lettuce, Tomato',
-          price: 3.85
+          price: '$3.85'
+        },
+        {
+          name: '4pc Potato Cheese Tacos',
+          details: 'Served with Rice and Beans',
+          price: '$9.95'
         },
         {
           name: '3pc Taco Dinner',
           details: 'Served with Rice and Beans',
-          price: 9.95
+          price: '$11.00'
         },
         {
           name: "Ochoa's Super Taco",
@@ -74,35 +78,35 @@ export class MenuComponent {
       foods: [
         {
           name: 'Steak',
-          price: 8.5
+          price: '$8.50'
         },
         {
           name: 'Skirt Steak',
-          price: 11.99
+          price: '$11.99'
         },
         {
           name: 'Chicken',
-          price: 8.5
+          price: '$8.50'
         },
         {
-          name: 'Pork',
-          price: 8.5
+          name: 'Al Pastor',
+          price: '$8.50'
         },
         {
-          name: 'Ground Chicken',
-          price: 8.5
+          name: 'Ground Beef',
+          price: '$8.50'
         },
         {
-          name: 'Braised Pork',
-          price: 9.99
+          name: 'Carnitas',
+          price: '$9.99'
         },
         {
-          name: 'Try our Veggie Burrito',
-          price: 8.5
+          name: 'Veggie',
+          price: '$8.50'
         },
         {
           name: 'Veggie Tostada',
-          price: 5.5
+          price: '$5.50'
         }
       ]
     },
@@ -111,23 +115,27 @@ export class MenuComponent {
       foods: [
         {
           name: 'Steak',
-          price: 5.25
+          price: '$5.25'
         },
         {
           name: 'Chicken',
-          price: 5.25
+          price: '$5.25'
         },
         {
-          name: 'Chicaron',
-          price: 5.25
+          name: 'Chicarron',
+          price: '$5.25'
+        },
+        {
+          name: 'Ground Beef',
+          price: '$5.25'
         },
         {
           name: 'Skirt Steak',
-          price: 6.5
+          price: '$6.50'
         },
         {
           name: 'Rajas',
-          price: 5.25
+          price: '$5.25'
         }
       ]
     },
@@ -136,27 +144,27 @@ export class MenuComponent {
       foods: [
         {
           name: 'Skirt Steak',
-          price: 6.50
+          price: '$6.50'
         },
         {
           name: 'Steak',
-          price: 5.25
+          price: '$5.25'
         },
         {
           name: 'Chicken',
-          price: 5.25
+          price: '$5.25'
         },
         {
           name: 'Ground Beef',
-          price: 5.25
+          price: '$5.25'
         },
         {
           name: 'Chicharron',
-          price: 5.25
+          price: '$5.25'
         },
         {
           name: 'Rajas',
-          price: 5.25
+          price: '$5.25'
         }
       ]
     },
@@ -165,27 +173,27 @@ export class MenuComponent {
       foods: [
         {
           name: 'Skirt Steak',
-          price: 11.50
+          price: '$11.50'
         },
         {
           name: 'Steak',
-          price: 10.5
+          price: '$10.50'
         },
         {
           name: 'Chicken',
-          price: 10.5
+          price: '$10.50'
         },
         {
           name: 'Al Pastor',
-          price: 10.5
+          price: '$10.50'
         },
         {
           name: 'Ground Beef',
-          price: 10.25
+          price: '$10.25'
         },
         {
           name: 'No Meat',
-          price: 9.5
+          price: '$9.50'
         }
       ]
     },
@@ -194,31 +202,31 @@ export class MenuComponent {
       foods: [
         {
           name: 'Skirt Steak',
-          price: 11.99
+          price: '$11.99'
         },
         {
           name: 'Steak',
-          price: 8.5
+          price: '$8.50'
         },
         {
           name: 'Chicken',
-          price: 8.5
+          price: '$8.50'
         },
         {
           name: 'Ground Beef',
-          price: 8.5
+          price: '$8.50'
         },
         {
           name: 'Chicharron',
-          price: 8.85
+          price: '$8.85'
         },
         {
           name: 'Carnitas',
-          price: 9.99
+          price: '$9.99'
         },
         {
           name: 'Milanesa de Pollo',
-          price: 9
+          price: '$9.00'
         }
       ]
     },
