@@ -1,25 +1,2 @@
 <!-- Toolbar -->
-
-<header></header>
-<div class="tab-container">
-  <mat-tab-group [color]="'accent'" [backgroundColor]="'primary'">
-    <mat-tab label="Menu">
-      <div class="row" style="width: 100%">
-        <div class="col-md-7 col-sm-12">
-          <menu></menu>
-        </div>
-        <div class="col-md-5 col-sm-12" style="top: 50px">
-          <div class="row logo-container ">
-            <img class="pepper-twins" style="padding: 10px" src="../../assets/Peppers-logo.png" alt="">
-          </div>
-        </div>
-      </div>
-    </mat-tab>
-    <mat-tab label="Photos">
-      <photos></photos>
-    </mat-tab>
-    <mat-tab label="About Us">
-      <about-us></about-us>
-    </mat-tab>
-  </mat-tab-group>
-</div>
+<router-outlet></router-outlet>

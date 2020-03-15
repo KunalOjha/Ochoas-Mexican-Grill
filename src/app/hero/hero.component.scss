@@ -1,0 +1,33 @@
+.hero-container {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .82;
+    display: flex; // make us of Flexbox
+    align-items: center; // does vertically center the desired content
+    justify-content: center; // horizontally centers single line items
+    text-align: center; // opt
+
+    .logo-container {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        z-index: 2;
+        color: white;
+        padding-bottom: 100px;
+    }
+
+    .hero-button {
+        color: red !important;
+        background: white !important;
+        width: 25%;
+        font-size: larger;
+        font-weight: 900;
+    }
+}
