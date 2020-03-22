@@ -230,6 +230,201 @@ export class MenuComponent {
         }
       ]
     },
+    {
+      title: 'Quesadillas',
+      foods: [
+        {
+          name: 'Skirt Steak',
+          price: '$10.99'
+        },
+        {
+          name: 'Steak',
+          price: '$8.50'
+        },
+        {
+          name: 'Chicken',
+          price: '$8.50'
+        },
+        {
+          name: 'Ground Beef',
+          price: '$8.50'
+        },
+        {
+          name: 'Al Pastor',
+          price: '$8.50'
+        },
+        {
+          name: 'Chicharron',
+          price: '$8.50'
+        },
+        {
+          name: 'Carnitas',
+          price: '$9.99'
+        }
+      ]
+    },
+    {
+      title: 'Nachos',
+      foods: [
+        {
+          name: 'Skirt Steak',
+          price: '$11.99'
+        },
+        {
+          name: 'Steak',
+          price: '$8.50'
+        },
+        {
+          name: 'Chicken',
+          price: '$8.50'
+        },
+        {
+          name: 'Ground Beef',
+          price: '$8.50'
+        },
+        {
+          name: 'Al Pastor',
+          price: '$8.50'
+        },
+        {
+          name: 'Chicharron',
+          price: '$8.85'
+        },
+        {
+          name: 'Carnitas',
+          price: '$9.99'
+        }
+      ]
+    },
+    {
+      title: 'Platillos',
+      foods: [
+        {
+          name: 'Chicken Breast w/ Veggies',
+          price: '$9.85'
+        },
+        {
+          name: 'Skirt Steak Fajitas',
+          price: '$18.50'
+        },
+        {
+          name: 'Chicken Fajitas',
+          price: '$17.50'
+        },
+        {
+          name: 'Al Pastor Fajitas',
+          price: '$17.50'
+        },
+        {
+          name: 'Shrimp Fajitas',
+          price: '$17.50'
+        },
+        {
+          name: 'Lien and Chile de Arbol',
+          price: '$14.99'
+        },
+        {
+          name: 'Steak a La Mexicana',
+          price: '$15.99'
+        },
+        {
+          name: 'Skirt Steak Platter',
+          price: '$21.50'
+        }
+      ]
+    },
+    {
+      title: 'Breakfast',
+      foods: [
+        {
+          name: 'Chilaquiles',
+          price: '$8.50'
+        },
+        {
+          name: 'Breakfast Burrito',
+          price: '$9.50'
+        },
+        {
+          name: 'Mexican Eggs',
+          price: '$8.50'
+        },
+        {
+          name: 'Huevos Rancheros',
+          price: '$8.50'
+        }
+      ]
+    },
+    {
+      title: 'Specials',
+      foods: [
+        {
+          name: 'Carnitas (per lb.)',
+          price: '$11.50'
+        },
+        {
+          name: 'Tacos de Birria',
+          price: '$4.00'
+        },
+        {
+          name: 'Birria',
+          price: '$15.00 / $22.00 1 Gal (To-Go)'
+        }
+      ]
+    },
+    {
+      title: 'Desserts',
+      foods: [
+        {
+          name: 'Caramel Churro',
+          price: '$2.50'
+        },
+        {
+          name: 'Caramel Churros (2pcs) served with vanilla ice cream',
+          price: '$6.00'
+        },
+        {
+          name: 'Vanilla Ice Cream (1 cup)',
+          price: '$2.00'
+        },
+        {
+          name: 'Rice Pudding',
+          price: '$2.50'
+        }
+      ]
+    },
+    {
+      title: 'Sides',
+      foods: [
+        {
+          name: 'Beans / Frijoles (12 oz)',
+          price: '$3.95'
+        },
+        {
+          name: 'Rice / Arroz (12 oz)',
+          price: '$3.95'
+        },
+        {
+          name: 'Guacamole & Chips',
+          price: '$6.50'
+        },
+        {
+          name: 'Chips & Salsa',
+          price: '$2.50'
+        },
+        {
+          name: 'Pico de Gallo Chips & Salsa',
+          price: '$4.00'
+        },
+        {
+          name: 'French Fries',
+          price: '$3.00'
+        },
+        {
+          name: 'Cooked Vegetables',
+          price: '$4.00'
+        },
+      ]
+    }
   ]
 }
 
