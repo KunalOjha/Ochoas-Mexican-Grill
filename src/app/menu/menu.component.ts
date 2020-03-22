@@ -393,6 +393,31 @@ export class MenuComponent {
       ]
     },
     {
+      title: 'Kid Meals',
+      foods: [
+        {
+          name: 'Cheeseburgers',
+          price: '$4.95'
+        },
+        {
+          name: 'Cheeseburgers',
+          price: '$4.95'
+        },
+        {
+          name: 'Grilled Cheese',
+          price: '$4.95'
+        },
+        {
+          name: 'Quesadillas',
+          price: '$4.95'
+        },
+        {
+          name: 'Chicken Tenders',
+          price: '$4.95'
+        },
+      ]
+    },
+    {
       title: 'Sides',
       foods: [
         {
